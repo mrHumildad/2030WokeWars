@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.HeaderApp{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: aliceblue;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+.FooterApp {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: aliceblue;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+.Main {
+  display: flex;
+}
+.actionbuttons {
+  display: flex;
+  flex-direction: column;
+}
+.activetab {
+  border: 3px solid red;
+}
